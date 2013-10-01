@@ -185,8 +185,8 @@ def render_field_and_label(field, label, field_class='', label_class='', horizon
     # Default settings for horizontal form
     if horizontal:
         if not field_class:
-            label_class = 'col-lg-2'
-            field_class = 'col-lg-10'
+            label_class = 'col-lg-6'
+            field_class = 'col-lg-6    '
         if not label:
             label = '&nbsp;'
         label_class = add_css_class(label_class, 'control-label')
